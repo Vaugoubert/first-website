@@ -1,0 +1,149 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div id="nav-2-home">
+    <div class="row">
+
+            <div class="col-xs-5"></div>
+
+            <div id="logo-2-home" class="col-xs-2">
+                <img src="{% static 'img/Logo_blanc.png' %}">
+            </div>
+
+            <div class="col-xs-5">
+                <nav id="nav-2-menu" class="nav navbar-nav">
+                     <ul class="nav navbar-nav">
+                            <li><a href="{% url 'chateau' %}">CHATEAU</a></li>
+                            <li><a href="{% url 'boulot' %}">BOULOT</a></li>
+                            <li><a href="{% url 'repos' %}">REPOS</a></li>
+                            <li><a href="{% url 'histoire' %}">Histoire</a></li>
+                            <li><a href="{% url 'detente' %}">Detente</a></li>
+                     </ul>
+                </nav>
+            </div>
+    </div>
+</div>
+
+<div id="img-home">
+
+    <div class="row">
+
+        <div id="left-home" class="col-xs-5">
+            <div class="logo-home-line"></div>
+        </div>
+
+        <div id="logo-home" class="col-xs-2">
+            <img src="{% static 'img/home/Logo_blanc.png' %}">
+        </div>
+
+        <div id="right-home" class="col-xs-5">
+            <nav id="home-nav" class="nav navbar-nav">
+                 <ul class="nav navbar-nav">
+                        <li><a href="{% url 'chateau' %}">CHATEAU</a></li>
+                        <li><a href="{% url 'boulot' %}">BOULOT</a></li>
+                        <li><a href="{% url 'repos' %}">REPOS</a></li>
+                        <li><a href="{% url 'histoire' %}">Histoire</a></li>
+                        <li><a href="{% url 'detente' %}">Detente</a></li>
+                 </ul>
+            </nav>
+            <div class="logo-home-line"></div>
+        </div>
+
+    </div>
+
+    <div id="home-des">
+        <h1>RESTAURER LE PASSSE<br>POUR RELEVER LES<br>DEFIS D'AUJOURD'HUI</h1>
+    </div>
+
+</div>
+
+<div id="img-home2">
+
+    <div class="container">
+
+        <div id="home2-item1" class="row">
+
+            <div id="home2-img1" class="col-xs-4">
+                <img src="{% static 'img/home/02_chateau.png' %}">
+                <h3>Un château XVIIIe pour<br>les grandes occasions</h3>
+            </div>
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/home/02_experimentation.png' %}">
+                <h3>600m2 de granges et écuries <br>réaménagées pour l'expérimentation</h3>
+            </div>
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/home/02_dodo.png' %}">
+                <h3>200m2 de ferme transformée<br>en gite pour la découverte.</h3>
+            </div>
+
+        </div>
+
+        <div id="home2-item2" class="row">
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/home/02_foret.png' %}">
+                <h3>190 hectares de forêt<br>pour l'inspiration.</h3>
+            </div>
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/home/02_riviere.png' %}">
+                <h3>Une rivière pour les pauses<br>rafraichissantes.</h3>
+            </div>
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/home/02_potager.png' %}">
+                <h3>Un potager en permaculture pour<br>le réconfort après l'effort.</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div id="img-home3">
+
+    <div class="container">
+
+
+        <div id="home3-des" class="container">
+
+        <h2>Sur les terres du Périgord Vert, il existe un lieu qui lie</h2>
+            <ul>
+            <li>transmission du savoir faire,</li>
+            <li>soin de l'environnement,</li>
+            <li>engagement dans la modernité,</li>
+            </ul>
+        <h1>Bienvenue à Vaugoubert! Faites vos jeux...</h1>
+
+        </div>
+
+
+        <div id="home3-item"class="row">
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/chateau/Logo_chateau_blanc.png' %}">
+                <h2>Organisez vos évènements</h2>
+            </div>
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/boulot/Logo_boulot_blanc.png' %}">
+                <h2>Donnez de l'air à vos projets</h2>
+            </div>
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/repos/Logo_repos_blanc.png' %}">
+                <h2>(Re)découvrez les charmes de la région</h2>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

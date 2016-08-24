@@ -1,0 +1,182 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div id="nav-2-chateau">
+    <div class="row">
+
+            <div class="col-xs-5"></div>
+
+            <div id="logo-2-chateau" class="col-xs-2">
+                <img src="{% static 'img/Logo_blanc.png' %}">
+            </div>
+
+            <div class="col-xs-5">
+                <nav id="nav-2-menu" class="nav navbar-nav">
+                     <ul class="nav navbar-nav">
+                            <li><a href="{% url 'chateau' %}">CHATEAU</a></li>
+                            <li><a href="{% url 'boulot' %}">BOULOT</a></li>
+                            <li><a href="{% url 'repos' %}">REPOS</a></li>
+                            <li><a href="{% url 'histoire' %}">Histoire</a></li>
+                            <li><a href="{% url 'detente' %}">Detente</a></li>
+                     </ul>
+                </nav>
+            </div>
+    </div>
+</div>
+
+<div id="img-chateau">
+
+    <div class="row">
+
+        <div id="left-chateau" class="col-xs-5">
+            <div class="logo-chateau-line"></div>
+        </div>
+
+        <div id="logo-chateau" class="col-xs-2">
+            <a href="{% url 'home' %}"><img src="{% static 'img/chateau/Logo_chateau_blanc.png' %}"></a>
+        </div>
+
+        <div id="right-chateau" class="col-xs-5">
+            <nav id="chateau-nav" class="nav navbar-nav">
+                 <ul class="nav navbar-nav">
+                        <li><a href="{% url 'chateau' %}">CHATEAU</a></li>
+                        <li><a href="{% url 'boulot' %}">BOULOT</a></li>
+                        <li><a href="{% url 'repos' %}">REPOS</a></li>
+                        <li><a href="{% url 'histoire' %}">Histoire</a></li>
+                        <li><a href="{% url 'detente' %}">Detente</a></li>
+                 </ul>
+            </nav>
+            <div class="logo-chateau-line"></div>
+        </div>
+
+    </div>
+
+    <div id="chateau-des">
+        <h1>ORGANISEZ VOS<br>EVENEMENTS</h1>
+        <br><br>
+        <h2>Le calme de la campagne, la simplicité en plus: Vaugoubert est<br>
+        idéal pour acceuillir des groupes. Le Périgord Vert saura charmer<br>
+        les hôtes de ces lieux que ce soit pour une journée mémorable<br>
+        ou pour une réunion plus longue!</h2>
+    </div>
+
+</div>
+
+
+<div id="img-chateau2">
+
+    <div class="container">
+
+        <div id="chateau2-des">
+            <h2>Vaugoubert est un espace</h2>
+            <h1>inspirant.</h1>
+        </div>
+
+        <div id="chateau2-item" class="row">
+
+
+            <div class="col-xs-6">
+                <h3>Niché sur son rocher, le chateau de Vaugoubert<br>
+                "domine la vallée" de la Dronne. Ce monument<br>
+                inscrit à l'inventaire des Monuments<br>
+                    Historiques a notamment été la demeure du<br>
+                chevalier d'Aydie, l'amant de la belle Aïssé...</h3>
+                <br>
+                <img src="{% static 'img/chateau/02_livres.png' %}">
+            </div>
+
+            <div class="col-xs-0"></div>
+
+            <div class="col-xs-6">
+                <h3>Construit au XVIe siècle, détruit au XVIIe,<br>
+                reconstruit au XVIIIe et agrandi au XIXe, le XXIe<br>
+                siècle veut en faire un lieu ouvert et innovant<br>
+                en "restaurant le passé pour relever les défis<br>
+                d'aujourd'hui".</h3>
+                <br>
+                <img src="{% static 'img/chateau/02_ampoule.png' %}">
+            </div>
+
+            <div class="col-xs-0"></div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div id="img-chateau3">
+
+    <div class="container">
+
+        <div id="chateau3-des">
+            <h1>WELCOME TO VAUGOUBERT</h1>
+            <br>
+            <h3>Vaugoubert peut abriter dans ses murs calcaires jusqu'à<br>
+            100 personnes pour échanger, travailler ou danser...<br>
+            Voire davantage! Cependant, au dela nous solliciterons nos <br>
+            partenaires sur la région pour dormir confortablement.</h3>
+        </div>
+
+        <div id="chateau3-item"class="row">
+
+            <div class="col-xs-6">
+                <img src="{% static 'img/chateau/03_entreprises.png' %}">
+                <h2>ENTREPRISES</h2>
+                <h3>Un séminaire au vert dans un <br>
+                lieu inspirant: c'est le cadre <br>
+                idéal pour innover!</h3>
+            </div>
+
+            <div class="col-xs-0"></div>
+
+            <div class="col-xs-6">
+                <img src="{% static 'img/chateau/03_et_toi_aussi.png' %}">
+                <h2>ET TOI AUSSI</h2>
+                <h3>Toi qui cherches un espace pour <br>
+                abriter ton projet festif, studieux <br>
+                ou les deux!</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="img-chateau4">
+    <div class="container">
+        <div id="chateau4-des">
+            <h2>CONCRETEMENT</h2>
+        </div>
+    </div>
+</div>
+
+<div id="img-chateau5">
+
+    <div class="container">
+
+        <div id="chateau5-des">
+            <h1>ETAT DES LIEUX</h1>
+            <br>
+            <h3>Le château est en cours de rénovation: il y a <br>
+            notamment 87 fenêtres à remplacer! En <br>
+            attendant son ouverture au public en 2018, <br>
+            voici quelques photos de son état actuel.</h3>
+        </div>
+
+        <div id="chateau5-item" class="row">
+
+            <div class="col-xs-6">
+                <img id=chateau5-img1 src="{% static 'img/chateau/05_exterieur.png' %}">
+            </div>
+
+            <div class="col-xs-0"></div>
+
+            <div class="col-xs-6">
+                <img id=chateau5-img2 src="{% static 'img/chateau/05-interieur.png' %}">
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

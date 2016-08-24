@@ -1,0 +1,173 @@
+@font-face {
+    font-family:'oswald-R';
+    src: url('Oswald-Regular.ttf');
+}
+@font-face {
+    font-family:'oswald-B';
+    src: url('Oswald-Bold.ttf');
+}
+@font-face {
+    font-family:'oswald-L';
+    src: url('Oswald-Light.ttf');
+}
+
+#nav-2-home{
+ height:50px;
+ background-color: #17476A;
+ position: fixed;
+ width:100vw;
+ z-index:1;
+ display: none;
+ border-bottom:#FF5119 1px solid;
+}
+
+#nav-2-menu{
+ float: right;
+ clear: right;
+ font-size:80%;
+}
+
+#nav-2-menu ul li a{
+ color:white;
+}
+
+#logo-2-home{
+ text-align:center;
+}
+
+#logo-2-home img{
+ width:40%;
+ height:auto;
+}
+
+#img-home{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/home/01_accueil.png) center no-repeat;
+ background-size: cover;
+}
+
+#img-home div.row{
+margin-left: 0;
+margin-right:0;
+}
+
+#img-home div.row div.col-xs-5, #img-home div.row div.col-xs-2 {
+padding-left:0;
+padding-right:0;
+}
+
+.logo-home-line{
+ height:2px;
+ margin-top: 50px;
+ background-color:#FF5119;
+}
+
+#logo-home{
+ text-align:center;
+}
+
+#logo-home img{
+ width:80%;
+ height:auto;
+}
+
+#home-nav{
+ float: right;
+ clear: right;
+ font-size:80%;
+ color: white;
+}
+
+#home-nav ul li a{
+ color:white;
+}
+
+#home-des{
+text-align:center;
+margin-top: 20vh;
+}
+
+#home-des h1{
+color: white;
+font-family: 'oswald-R';
+}
+
+#home-des h2{
+background-color:rgba(255, 255, 255, 0.5);
+font-family: 'oswald-L'
+}
+
+#img-home2{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/home/02_presentation.png) center no-repeat;
+ background-size: cover;
+}
+
+#home2-item1{
+margin-top: 15vh;
+color:white;
+text-align:center;
+font-family: 'oswald-L';
+}
+
+
+#home2-item1 img{
+ width:30%;
+ height:auto;
+}
+
+#home2-item2{
+margin-top: 20vh;
+color:white;
+text-align:center;
+font-family: 'oswald-L';
+}
+
+#home2-item2 img{
+ width:30%;
+ height:auto;
+}
+
+#img-home3{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/home/03_CBD.png) center no-repeat;
+ background-size: cover;
+ background-color:#17476A;
+}
+
+#home3-des{
+text-align:center;
+color:white;
+margin-top: 15vh;
+}
+
+#home3-des h1{
+font-family:'oswald-L'
+}
+
+#home3-des h3{
+font-family:'oswald-L'
+}
+
+#home3-item{
+margin-top: 10vh;
+color:white;
+text-align:center;
+font-family: 'oswald-L';
+}
+
+#home3-item img{
+ width:25%;
+ height:auto;
+ border:rounded;
+ border-color: #3498DB;
+}

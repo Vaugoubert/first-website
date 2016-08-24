@@ -1,0 +1,80 @@
+{% load staticfiles %}
+
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+<script>
+function init() {
+
+    window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 100,
+            header = document.querySelector("header");
+
+        var $menu2 = $("#nav-2-chateau");
+        if (distanceY > shrinkOn) {
+            $menu2.show();
+        } else {
+            $menu2.hide();
+        }
+    });
+}
+window.onload = init();
+</script>
+
+<script>
+function init() {
+
+    window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 100,
+            header = document.querySelector("header");
+
+        var $menu2 = $("#nav-2-boulot");
+        if (distanceY > shrinkOn) {
+            $menu2.show();
+        } else {
+            $menu2.hide();
+        }
+    });
+}
+window.onload = init();
+</script>
+
+<script>
+function init() {
+
+    window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 100,
+            header = document.querySelector("header");
+
+        var $menu2 = $("#nav-2-repos");
+        if (distanceY > shrinkOn) {
+            $menu2.show();
+        } else {
+            $menu2.hide();
+        }
+    });
+}
+window.onload = init();
+</script>
+
+<script>
+function init() {
+
+    window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 100,
+            header = document.querySelector("header");
+
+        var $menu2 = $("#nav-2-home");
+        if (distanceY > shrinkOn) {
+            $menu2.show();
+        } else {
+            $menu2.hide();
+        }
+    });
+}
+window.onload = init();
+</script>

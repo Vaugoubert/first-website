@@ -1,0 +1,511 @@
+@font-face {
+    font-family:'oswald-R';
+    src: url('Oswald-Regular.ttf');
+}
+@font-face {
+    font-family:'oswald-B';
+    src: url('Oswald-Bold.ttf');
+}
+@font-face {
+    font-family:'oswald-L';
+    src: url('Oswald-Light.ttf');
+}
+
+.col-chateau-card{
+ text-align: center;
+}
+
+#home_page{
+ position:relative;
+ width:1000px;
+ height:600px;
+ padding-left:6px;
+}
+
+.left_line{
+ position:absolute;
+ top:61px;
+ width:400px;
+ height:2px;
+ background-color:#FF5119;
+ z-index:1;
+}
+
+.right_line{
+ position:absolute;
+ top:61px;
+ width:400px;
+ height:2px;
+ left: 606px;
+ background-color:#FF5119;
+ z-index:1;
+}
+
+#font_home_page{
+ position:absolute;
+ width:100%;
+ height:100%;
+}
+
+#logo{
+ position:absolute;
+ top:16px;
+ width:149px;
+ height:94px;
+ z-index:1;
+ left:430px;
+}
+
+#home_page_text{
+ position:absolute;
+ color: white;
+ font-family:'oswald-R';
+ text-align:center;
+ top: 190px;
+ left:300px;
+ z-index:1;
+ font-size:large;
+}
+
+#home_page_nav{
+ position:absolute;
+ left:630px;
+ top:10px;
+ font-size:80%;
+}
+
+#home_page_nav ul li a{
+ color:white;
+}
+
+#info{
+ position:absolute;
+ color:white;
+ font-family:'oswald-L';
+ top:472px;
+ left:452px;
+ font-size:120%;
+ z-index:1;
+}
+
+#arrow{
+ position:absolute;
+ top:512px;
+ left:481px;
+ width:5%;
+ height:5%;
+ z-index:1;
+}
+
+
+#home_page2_nav{
+ background-color:#17476A;
+ border-bottom-color:#FF5119;
+ width:1000px;
+ left:20px;
+ height:55px;
+ z-index:1;
+}
+
+#home_page2_nav ul{
+ padding-left:726px;
+ z-index:1;
+}
+
+#home_page2_nav ul li a{
+ color:white;
+}
+
+#home_page2_logo{
+ position:absolute;
+ top:5px;
+ width:75px;
+ height:45px;
+ z-index:1;
+ left:479px;
+}
+
+#home_page2_nav_line{
+ position:absolute;
+ color:#FF5119;
+ top:10px;
+ width:1000px;
+ height:2px;
+ z-index:1;
+}
+
+#home_page2_1{
+ position:relative;
+ width:1000px;
+ height:650px;
+ left:-20px;
+}
+
+#home_page2_img1{
+ position:absolute;
+ width:100%;
+ height:100%;
+}
+
+#home_page2_chateau{
+ position:absolute;
+ width:100px;
+ height:50px;
+ top:150px;
+ left:70px;
+ z-index:1;
+}
+
+#home_page2_chateau img{
+ width:203px;
+ height:121px;
+}
+
+#home_page2_chateau p{
+ color:white;
+ font-family:'oswald-R';
+ width:266px;
+}
+
+#home_page2_experimentation{
+ position:absolute;
+ width:100px;
+ height:50px;
+ top:150px;
+ left:431px;
+ z-index:1;
+}
+
+#home_page2_experimentation img{
+ width:134px;
+ height:121px;
+}
+
+#home_page2_experimentation p{
+ color:white;
+ font-family:'oswald-R';
+ width:266px;
+}
+
+#home_page2_repos{
+ position:absolute;
+ width:100px;
+ height:50px;
+ top:150px;
+ left:752px;
+ z-index:1;
+}
+
+#home_page2_repos img{
+ width:136px;
+ height:121px;
+}
+
+#home_page2_repos p{
+ color:white;
+ font-family:'oswald-R';
+ width:266px;
+}
+
+#home_page2_foret{
+ position:absolute;
+ width:100px;
+ height:50px;
+ top:400px;
+ left:70px;
+ z-index:1;
+}
+
+#home_page2_foret img{
+ width:150px;
+ height:121px;
+}
+
+#home_page2_foret p{
+ color:white;
+ font-family:'oswald-R';
+ width:266px;
+}
+
+#home_page2_riviere{
+ position:absolute;
+ width:100px;
+ height:50px;
+ top:400px;
+ left:440px;
+ z-index:1;
+}
+
+#home_page2_riviere img{
+ width:130px;
+ height:121px;
+}
+
+#home_page2_riviere p{
+ color:white;
+ font-family:'oswald-R';
+ width:266px;
+}
+
+#home_page2_potager{
+ position:absolute;
+ width:100px;
+ height:50px;
+ top:400px;
+ left:761px;
+ z-index:1;
+}
+
+#home_page2_potager img{
+ width:138px;
+ height:121px;
+}
+
+#home_page2_potager p{
+ color:white;
+ font-family:'oswald-R';
+ width:266px;
+}
+
+#home_page2_2{
+ position:relative;
+ width:1000px;
+ height:500px;
+ left:-5px;
+ background-color:#17476A;
+}
+
+#home_page2_2_img{
+ position:absolute;
+ width:100%;
+ height:100%;
+ left:0px;
+ z-index:1;
+}
+
+#home_page2_2_text{
+ position:absolute;
+ color: white;
+ font-family:'oswald-L';
+ top: 60px;
+ left:350px;
+ z-index:1;
+ font-size:large;
+}
+
+#home_page2_2_text ul{
+ left:100px;
+}
+
+#home_page2_2_chateau{
+ position:absolute;
+ width:100px;
+ height:50px;
+ top:290px;
+ left:140px;
+ z-index:1;
+}
+
+#home_page2_2_chateau img{
+ width:150px;
+ height:121px;
+ border:rounded;
+ border-color: #3498DB;
+}
+
+#home_page2_2_chateau p{
+ color:white;
+ font-family:'oswald-R';
+ width:266px;
+}
+
+
+#home_page2_2_boulot{
+ position:absolute;
+ width:100px;
+ height:50px;
+ top:290px;
+ left:400px;
+ z-index:1;
+}
+
+#home_page2_2_boulot img{
+ width:150px;
+ height:121px;
+ border:rounded;
+ border-color: #3498DB;
+}
+
+#home_page2_2_boulot p{
+ color:white;
+ font-family:'oswald-R';
+ width:266px;
+}
+
+
+#home_page2_2_repos{
+ position:absolute;
+ width:100px;
+ height:50px;
+ top:290px;
+ left:700px;
+ z-index:1;
+}
+
+#home_page2_2_repos img{
+ width:150px;
+ height:121px;
+ border:rounded;
+ border-color: #3498DB;
+}
+
+#home_page2_2_repos p{
+ color:white;
+ font-family:'oswald-R';
+ width:266px;
+}
+
+#home_page2_3{
+ position:relative;
+ width:1000px;
+ height:500px;
+ left:-5px;
+}
+
+#home_page2_3_img{
+ position:absolute;
+ width:100%;
+ height:100%;
+ left:0px;
+ z-index:1;
+}
+
+#home_page2_3_guillemets{
+ position:absolute;
+ width:13%;
+ height:20%;
+ top:110px;
+ left:207px;
+ z-index:1;
+}
+
+#home_page2_3 h1{
+ position:absolute;
+ font-family:'oswald-L';
+ color:white;
+ top: 30px;
+ left:488px;
+ font-size:150%;
+ z-index:1;
+}
+
+#home_page2_3_text{
+ position:absolute;
+ top:130px;
+ left:350px;
+ z-index:1;
+}
+
+#home_page2_3_text p{
+ color: white;
+ font-size:120%;
+ font-family:'oswald-L';
+}
+
+#home_page2_4{
+ position:relative;
+ width:1000px;
+ height:500px;
+ left:-5px;
+ background-color:#17476A;
+}
+
+#home_page2_4_img{
+ position:absolute;
+ width:100%;
+ height:100%;
+ left:0px;
+ z-index:1;
+}
+
+#home_page2_4_text{
+ position:absolute;
+ width:440px;
+ top:15px;
+ left:300px;
+ z-index:1
+}
+
+#home_page2_4_text h1{
+ color:white;
+ font-family:'oswald-L';
+ font-size:120%;
+ text-align:center;
+}
+
+#home_page2_4_text p{
+ color:white;
+ font-family:'oswald-L';
+ font-size:120%;
+}
+
+#home_page2_5{
+ position:relative;
+ width:1000px;
+ height:500px;
+ left:-5px;
+}
+
+#home_page2_5_img{
+ position:absolute;
+ width:100%;
+ height:100%;
+ left:0px;
+ z-index:1;
+}
+
+#home_page2_5_text{
+ position:absolute;
+ width:300px;
+ top:107px;
+ left:450px;
+ z-index:1
+}
+
+#home_page2_5_text p{
+ color:white;
+ font-family:'oswald-L';
+ font-size:125%;
+}
+
+#carte_avec{
+ position:absolute;
+ width:318px;
+ height:320px;
+ top:90px;
+ left:80px;
+ z-index:1;
+}
+
+#home_page2_6{
+ position:relative;
+ width:1000px;
+ height:500px;
+ left:-5px;
+ background-color:#17476A;
+}
+
+#home_page2_6 h1{
+ color:white;
+ font-family:'oswald-L';
+ font-size:200%;
+ text-align:center;
+ z-index:1;
+}
+#home_page2_6_img{
+ position:absolute;
+ width:100%;
+ height:100%;
+ left:0px;
+ z-index:1;
+}

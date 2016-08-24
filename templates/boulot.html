@@ -1,0 +1,192 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div id="nav-2-boulot">
+    <div class="row">
+
+            <div class="col-xs-5"></div>
+
+            <div id="logo-2-chateau" class="col-xs-2">
+                <img src="{% static 'img/Logo_blanc.png' %}">
+            </div>
+
+            <div class="col-xs-5">
+                <nav id="nav-2-menu" class="nav navbar-nav">
+                     <ul class="nav navbar-nav">
+                            <li><a href="{% url 'chateau' %}">CHATEAU</a></li>
+                            <li><a href="{% url 'boulot' %}">BOULOT</a></li>
+                            <li><a href="{% url 'repos' %}">REPOS</a></li>
+                            <li><a href="{% url 'histoire' %}">Histoire</a></li>
+                            <li><a href="{% url 'detente' %}">Detente</a></li>
+                     </ul>
+                </nav>
+            </div>
+    </div>
+</div>
+
+<div id="img-boulot">
+
+    <div class="row">
+
+        <div id="left-boulot" class="col-xs-5">
+            <div class="logo-boulot-line"></div>
+        </div>
+
+        <div id="logo-boulot" class="col-xs-2">
+            <a href="{% url 'home' %}"><img src="{% static 'img/boulot/Logo_boulot_blanc.png' %}"></a>
+        </div>
+
+        <div id="right-boulot" class="col-xs-5">
+            <nav id="boulot-nav" class="nav navbar-nav">
+                 <ul class="nav navbar-nav">
+                        <li><a href="{% url 'chateau' %}">CHATEAU</a></li>
+                        <li><a href="{% url 'boulot' %}">BOULOT</a></li>
+                        <li><a href="{% url 'repos' %}">REPOS</a></li>
+                        <li><a href="{% url 'histoire' %}">Histoire</a></li>
+                        <li><a href="{% url 'detente' %}">Detente</a></li>
+                 </ul>
+            </nav>
+            <div class="logo-boulot-line"></div>
+        </div>
+
+    </div>
+
+    <div id="boulot-des">
+        <h1>DONNEZ DE L'AIR<br>A VOS PROJETS</h1>
+        <br><br>
+        <h2>A tous les porteurs de projets,<br>
+        A tous les rêveurs, les utopistes et les pragmatiques,<br>
+        Nous avons déniché pour vous un petit (240 hectares tout de même) havre de paix professionnelle!<br>
+        Soyez les bienvenus dans l'aventure Vaugoubert.</h2>
+    </div>
+
+</div>
+
+
+<div id="img-boulot2">
+
+    <div class="container">
+
+        <div id="boulot2-des">
+            <h2>Vaugoubert est un espace dédié à</h2>
+            <h1>l'expérimentation grandeur nature.</h1>
+        </div>
+
+        <div id="boulot2-item" class="row">
+
+
+            <div class="col-xs-6">
+                <h3>Troquez votre réveil contre le brame<br>
+                du cerf, les klaxons contre le chant des<br>
+                oiseaux, vous y êtes: l'endroit idéal pour<br>
+                vous concentrer (enfin!) sur votre projet.</h3>
+                <br>
+                <img src="{% static 'img/boulot/02_cerf.png' %}">
+            </div>
+
+            <div class="col-xs-0"></div>
+
+            <div class="col-xs-6">
+                <h3>Planchez sur votre projet mais aussi testez-le <br>
+                    grâce au workerspace* en libre accès et à l'atelier de <br>
+                    menuiserie. Artisans aguerris ou néophytes, ici, <br>
+                    nous privilégions la transmission du savoir-faire.</h3>
+                <br>
+                <img src="{% static 'img/boulot/02_outils.png' %}">
+            </div>
+
+            <div class="col-xs-0"></div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div id="img-boulot3">
+
+    <div class="container">
+
+        <div id="boulot3-des">
+            <h1>WELCOME TO VAUGOUBERT</h1>
+            <br>
+            <h3>Petits, moyens et grands sont les bienvenus à Vaugoubert :
+                tant que l’intention est d’expérimenter un projet,
+                plus on est de fous, plus on rit (et plus on apprend...) !
+                Ici, l’apprentissage passe également la porte de l'atelier avec des
+                formations  aux techniques de menuiserie, de maçonnerie et des nouveaux
+                outils numériques.</h3>
+        </div>
+
+        <div id="boulot3-item"class="row">
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/boulot/03_start_ups.png' %}">
+                <h2>START-UPS</h2>
+                <h3>C'est l'opportunité pour vous de <br>
+                dédier du temps de qualité à votre <br>
+                projet pour le faire changer d'échelle!</h3>
+            </div>
+
+            <div class="col-xs-0"></div>
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/boulot/03_entreprises.png' %}">
+                <h2>ENTREPRISES</h2>
+                <h3>Un séminaire au vert dans un <br>
+                lieu inspirant: c'est le cadre <br>
+                idéal pour innover!</h3>
+            </div>
+
+            <div class="col-xs-0"></div>
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/boulot/03_et_toi_aussi.png' %}">
+                <h2>ET TOI AUSSI</h2>
+                <h3>Besoin d'une pause? Envie de <br>
+                travailler sur un projet personnel? Toi <br>
+                aussi, tu es le bienvenu.</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="img-chateau4">
+    <div class="container">
+        <div id="chateau4-des">
+            <h2>CONCRETEMENT</h2>
+        </div>
+    </div>
+</div>
+
+<div id="img-boulot5">
+
+    <div class="container">
+
+        <div id="boulot5-des">
+            <h1>ETAT DES LIEUX</h1>
+            <br>
+            <h3>Deux bâtiments se faisant face, à quelques enjambées du château...<br>
+                c’est là que vos projets écloreront!<br>
+                Mais auparavant place à la rénovation!</h3>
+        </div>
+
+        <div id="boulot5-item" class="row">
+
+            <div class="col-xs-5">
+                <img id=boulot5-img1 src="{% static 'img/boulot/05_bureau.png' %}">
+            </div>
+
+            <div class="col-xs-2"></div>
+
+            <div class="col-xs-5">
+                <img id=boulot5-img2 src="{% static 'img/boulot/05_atelier.png' %}">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

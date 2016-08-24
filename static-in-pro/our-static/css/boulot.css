@@ -1,0 +1,202 @@
+@font-face {
+    font-family:'oswald-R';
+    src: url('Oswald-Regular.ttf');
+}
+@font-face {
+    font-family:'oswald-B';
+    src: url('Oswald-Bold.ttf');
+}
+@font-face {
+    font-family:'oswald-L';
+    src: url('Oswald-Light.ttf');
+}
+
+#nav-2-boulot{
+ height:50px;
+ background-color: #17476A;
+ position: fixed;
+ width:100vw;
+ z-index:1;
+ display: none;
+ border-bottom:#00B286 1px solid;
+}
+
+#logo-2-boulot{
+ text-align:center;
+}
+
+#logo-2-boulot img{
+ width:40%;
+ height:auto;
+}
+
+.logo-boulot-line{
+ height:2px;
+ margin-top: 50px;
+ background-color:#00B286;
+}
+
+#img-boulot{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/boulot/01_accueil_boulot.png) center no-repeat;
+ background-size: cover;
+}
+
+#img-boulot div.row{
+margin-left: 0;
+margin-right:0;
+}
+
+#img-boulot div.row div.col-xs-5, #img-boulot div.row div.col-xs-2 {
+padding-left:0;
+padding-right:0;
+}
+
+
+#logo-boulot{
+ text-align:center;
+}
+
+#logo-boulot img{
+ width:80%;
+ height:auto;
+}
+
+#img-boulot div.logo-line{
+background-color:#00B286;
+}
+
+#boulot-nav{
+ float: right;
+ clear: right;
+ font-size:80%;
+ color: white;
+}
+
+#boulot-nav ul li a{
+ color:white;
+}
+
+#boulot-des{
+text-align:center;
+margin-top: 20vh;
+}
+
+#boulot-des h1{
+color: white;
+font-family: 'oswald-R';
+}
+
+#boulot-des h2{
+background-color:rgba(255, 255, 255, 0.5);
+font-family: 'oswald-L'
+}
+
+#img-boulot2{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/boulot/02_presentation_boulot.png) center no-repeat;
+ background-size: cover;
+}
+
+#boulot2-des{
+text-align:center;
+color:white;
+margin-top: 15vh;
+}
+
+#boulot2-des h1{
+font-family: 'oswald-B';
+}
+
+#boulot2-des h2{
+font-family: 'oswald-R'
+}
+
+#boulot2-item{
+margin-top: 15vh;
+color:white;
+text-align:center;
+font-family: 'oswald-L';
+}
+
+#boulot2-item img{
+ width:30%;
+ height:auto;
+}
+
+#img-boulot3{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/boulot/03_welcome.png) center no-repeat;
+ background-size: cover;
+ background-color:#17476A;
+}
+
+#boulot3-des{
+text-align:center;
+color:white;
+margin-top: 15vh;
+}
+
+#boulot3-des h1{
+font-family:'oswald-L'
+}
+
+#boulot3-des h3{
+font-family:'oswald-L'
+}
+
+#boulot3-item{
+margin-top: 10vh;
+color:white;
+text-align:center;
+font-family: 'oswald-L';
+}
+
+#boulot3-item img{
+ width:25%;
+ height:auto;
+}
+
+
+#img-boulot5{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/boulot/05_etat_des_lieux.png) center no-repeat;
+ background-size: cover;
+ background-color:#17476A;
+}
+
+#boulot5-des{
+text-align:center;
+color:white;
+margin-top: 10vh;
+}
+
+#boulot5-des h1{
+font-family:'oswald-L'
+}
+
+#boulot5-des h3{
+font-family:'oswald-L'
+}
+
+#boulot5-img1{
+ width:70%;
+ height:auto;
+}
+
+#boulot5-img2{
+ width:65%;
+ height:auto;
+}

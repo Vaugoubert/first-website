@@ -1,0 +1,222 @@
+@font-face {
+    font-family:'oswald-R';
+    src: url('Oswald-Regular.ttf');
+}
+@font-face {
+    font-family:'oswald-B';
+    src: url('Oswald-Bold.ttf');
+}
+@font-face {
+    font-family:'oswald-L';
+    src: url('Oswald-Light.ttf');
+}
+
+#nav-2-chateau{
+ height:50px;
+ background-color: #17476A;
+ position: fixed;
+ width:100vw;
+ z-index:1;
+ display: none;
+ border-bottom:#3498DB 1px solid;
+}
+
+#nav-2-menu{
+ float: right;
+ clear: right;
+ font-size:80%;
+}
+
+#nav-2-menu ul li a{
+ color:white;
+}
+
+#logo-2-chateau{
+ text-align:center;
+}
+
+#logo-2-chateau img{
+ width:40%;
+ height:auto;
+}
+
+#img-chateau{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/chateau/01_accueil_chateau.png) center no-repeat;
+ background-size: cover;
+}
+
+#img-chateau div.row{
+margin-left: 0;
+margin-right:0;
+}
+
+#img-chateau div.row div.col-xs-5, #img-chateau div.row div.col-xs-2 {
+padding-left:0;
+padding-right:0;
+}
+
+.logo-chateau-line{
+ height:2px;
+ margin-top: 50px;
+ background-color:#3498DB;
+}
+
+#logo-chateau{
+ text-align:center;
+}
+
+#logo-chateau img{
+ width:80%;
+ height:auto;
+}
+
+#chateau-nav{
+ float: right;
+ clear: right;
+ font-size:80%;
+ color: white;
+}
+
+#chateau-nav ul li a{
+ color:white;
+}
+
+#chateau-des{
+text-align:center;
+margin-top: 20vh;
+}
+
+#chateau-des h1{
+color: white;
+font-family: 'oswald-R';
+}
+
+#chateau-des h2{
+background-color:rgba(255, 255, 255, 0.5);
+font-family: 'oswald-L'
+}
+
+
+#img-chateau2{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/chateau/02_presentation_chateau.png) center no-repeat;
+ background-size: cover;
+}
+
+#chateau2-des{
+text-align:center;
+color:white;
+margin-top: 15vh;
+}
+
+#chateau2-des h1{
+font-family: 'oswald-B';
+}
+
+#chateau2-des h2{
+font-family: 'oswald-R'
+}
+
+#chateau2-item{
+margin-top: 15vh;
+color:white;
+text-align:center;
+font-family: 'oswald-L';
+}
+
+#chateau2-item img{
+ width:30%;
+ height:auto;
+}
+
+#img-chateau3{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/chateau/03_welcome.png) center no-repeat;
+ background-size: cover;
+ background-color:#17476A;
+}
+
+#chateau3-des{
+text-align:center;
+color:white;
+margin-top: 15vh;
+}
+
+#chateau3-des h1{
+font-family:'oswald-L'
+}
+
+#chateau3-des h3{
+font-family:'oswald-L'
+}
+
+#chateau3-item{
+margin-top: 10vh;
+color:white;
+text-align:center;
+font-family: 'oswald-L';
+}
+
+#chateau3-item img{
+ width:25%;
+ height:auto;
+}
+
+#img-chateau4{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/chateau/04_concrètement.png) center no-repeat;
+ background-size: cover;
+}
+#chateau4-des{
+text-align:center;
+color:white;
+margin-top: 15vh;
+}
+
+#img-chateau5{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/chateau/05_etat_des_lieux.png) center no-repeat;
+ background-size: cover;
+ background-color:#17476A;
+}
+
+#chateau5-des{
+text-align:center;
+color:white;
+margin-top: 10vh;
+}
+
+#chateau5-des h1{
+font-family:'oswald-L'
+}
+
+#chateau5-des h3{
+font-family:'oswald-L'
+}
+
+#chateau5-img1{
+ width:23vw;
+ height:auto;
+}
+
+#chateau5-img2{
+ width:25vw;
+ height:auto;
+}
+

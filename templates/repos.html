@@ -1,0 +1,192 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+
+<div id="nav-2-repos">
+    <div class="row">
+
+            <div class="col-xs-5"></div>
+
+            <div id="logo-2-chateau" class="col-xs-2">
+                <img src="{% static 'img/Logo_blanc.png' %}">
+            </div>
+
+            <div class="col-xs-5">
+                <nav id="nav-2-menu" class="nav navbar-nav">
+                     <ul class="nav navbar-nav">
+                            <li><a href="{% url 'chateau' %}">CHATEAU</a></li>
+                            <li><a href="{% url 'boulot' %}">BOULOT</a></li>
+                            <li><a href="{% url 'repos' %}">REPOS</a></li>
+                            <li><a href="{% url 'histoire' %}">Histoire</a></li>
+                            <li><a href="{% url 'detente' %}">Detente</a></li>
+                     </ul>
+                </nav>
+            </div>
+    </div>
+</div>
+
+<div id="img-repos">
+
+    <div class="row">
+
+        <div id="left-repos" class="col-xs-5">
+            <div class="logo-repos-line"></div>
+        </div>
+
+        <div id="logo-repos" class="col-xs-2">
+            <a href="{% url 'home' %}"><img src="{% static 'img/repos/Logo_repos_blanc.png' %}"></a>
+        </div>
+
+        <div id="right-repos" class="col-xs-5">
+            <nav id="repos-nav" class="nav navbar-nav">
+                 <ul class="nav navbar-nav">
+                        <li><a href="{% url 'chateau' %}">CHATEAU</a></li>
+                        <li><a href="{% url 'boulot' %}">BOULOT</a></li>
+                        <li><a href="{% url 'repos' %}">REPOS</a></li>
+                        <li><a href="{% url 'histoire' %}">Histoire</a></li>
+                        <li><a href="{% url 'detente' %}">Detente</a></li>
+                 </ul>
+            </nav>
+            <div class="logo-repos-line"></div>
+        </div>
+
+    </div>
+
+    <div id="repos-des">
+        <h1>(RE)DECOUVREZ LES<br>CHARMES DE LA REGION</h1>
+        <br><br>
+        <h2>Le Périgord Vert, terre de diversité et de contrastes vous accueille à bras ouverts.<br>
+        Que ce soit dans les chambres rénovées du château ou dans le gîte attenant,<br>
+        Vous dormirez paisiblement à Vaugoubert!</h2>
+    </div>
+
+</div>
+
+
+<div id="img-repos2">
+
+    <div class="container">
+
+        <div id="repos2-des">
+            <h2>Vaugoubert est un espace</h2>
+            <h1>reposant.</h1>
+        </div>
+
+        <div id="repos2-item" class="row">
+
+            <div class="col-xs-6">
+                <h3>Le bruissement des feuilles comme berceuse,<br>
+                    et l’histoire des lieux comme matière à rêver:<br>
+                    vous avez de belles nuits devant vous… Les <br>
+                    chambres du château ou celles de l’ancienne <br>
+                    maison du gardien ont chacune leur identité, à <br>
+                    vous de choisir celle qui vous correspond !</h3>
+                <br>
+                <img src="{% static 'img/repos/02_attrape_reves.png' %}">
+            </div>
+
+            <div class="col-xs-0"></div>
+
+            <div class="col-xs-6">
+                <h3>Du château partent de jolies boucles à <br>
+                    parcourir en randonnant, courant ou roulant! <br>
+                    Idéal pour s’aérer l’esprit…<br>
+                    Et, les papilles, aussi, se réjouissent de la <br>
+                    gastronomie locale !</h3>
+                <br>
+                <img src="{% static 'img/repos/02_paysage.png' %}">
+            </div>
+
+            <div class="col-xs-0"></div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div id="img-repos3">
+
+    <div class="container">
+
+        <div id="repos3-des">
+            <h1>WELCOME TO VAUGOUBERT</h1>
+            <br>
+            <h3>Entre Histoire et balades, nous espérons que le calme ambient<br>
+                vous inspirera pour fabriquer, à votre tour, de belles histoires !<br>
+                Soyez les bienvenu(e)s dans les chambres de Vaugoubert.</h3>
+        </div>
+
+        <div id="repos3-item"class="row">
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/repos/03_start_ups.png' %}">
+                <h2>START-UPS</h2>
+                <h3>Occupez les chambres du château pour<br>
+                    vous plonger dans un univers<br>
+                    inspirant…</h3>
+            </div>
+
+            <div class="col-xs-0"></div>
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/repos/03_entreprises.png' %}">
+                <h2>ENTREPRISES</h2>
+                <h3>24 chambres disponibles pour vos <br>
+                    collaborateurs, et davantage grâce à <br>
+                    nos partenaires locaux!</h3>
+            </div>
+
+            <div class="col-xs-0"></div>
+
+            <div class="col-xs-4">
+                <img src="{% static 'img/repos/03_et_toi_aussi.png' %}">
+                <h2>ET TOI AUSSI</h2>
+                <h3>Toi qui passes par là et veux profiter <br>
+                    des charmes de la région, nous avons <br>
+                    également chambre à ton pied !</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="img-chateau4">
+    <div class="container">
+        <div id="chateau4-des">
+            <h2>CONCRETEMENT</h2>
+        </div>
+    </div>
+</div>
+
+<div id="img-repos5">
+
+    <div class="container">
+
+        <div id="repos5-des">
+            <h1>ETAT DES LIEUX</h1>
+            <br>
+            <h3>C’est le château ou l’ancienne maison du <br>
+                gardien qui vous accueillera. Encore en <br>
+                rénovation aujourd’hui, il y aura à terme 24 <br>
+                chambres fonctionnelles!</h3>
+        </div>
+
+        <div id="repos5-item" class="row">
+
+            <div class="col-xs-6">
+                <img id=repos5-img1 src="{% static 'img/repos/05_chateau.png' %}">
+            </div>
+
+            <div class="col-xs-0"></div>
+
+            <div class="col-xs-6">
+                <img id=repos5-img2 src="{% static 'img/repos/05_gite.png' %}">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
