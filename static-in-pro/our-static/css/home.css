@@ -118,20 +118,21 @@ font-family: 'oswald-L';
 
 
 #home2-item1 img{
- width:30%;
- height:auto;
+ width:auto;
+ height:106px;
 }
 
+
 #home2-item2{
-margin-top: 20vh;
+margin-top: 17vh;
 color:white;
 text-align:center;
 font-family: 'oswald-L';
 }
 
 #home2-item2 img{
- width:30%;
- height:auto;
+ width:auto;
+ height:106px;
 }
 
 #img-home3{
@@ -148,15 +149,14 @@ font-family: 'oswald-L';
 text-align:center;
 color:white;
 margin-top: 15vh;
+font-family:'oswald-L';
 }
 
-#home3-des h1{
-font-family:'oswald-L'
+#home3-des div{
+display:inline-block;
+font-size:20px;
 }
 
-#home3-des h3{
-font-family:'oswald-L'
-}
 
 #home3-item{
 margin-top: 10vh;
@@ -168,6 +168,68 @@ font-family: 'oswald-L';
 #home3-item img{
  width:25%;
  height:auto;
- border:rounded;
+ border-radius:10px;
  border-color: #3498DB;
+ border-width: 2px;
+ border-style: solid;
+}
+
+#img-home4{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/home/04_vision.png) center no-repeat;
+ background-size: cover;
+}
+
+#home4-des{
+text-align:center;
+color:white;
+margin-top: 15vh;
+font-family:'oswald-R';
+}
+
+#home4-guillemets img{
+ width:auto;
+ height:25vh;
+}
+
+#home4-des2{
+text-align:center;
+color:white;
+margin-top: 10vh;
+font-family:'oswald-L';
+}
+
+#img-home5{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/home/05_equipe.png) center no-repeat;
+ background-size: cover;
+ background-color:#17476A;
+}
+
+#home5-des{
+text-align:center;
+color:white;
+margin-top: 15vh;
+}
+
+#home5-des h3{
+font-family:'oswald-L'
+}
+
+.trombi-photo{
+ border: red 2px solid;
+}
+
+.trombi-detail{
+ visibility:hidden;
+}
+
+.trombi-photo:hover + .trombi-detail{
+ visibility:visible;
 }
