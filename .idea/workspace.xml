@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d33711a-2373-4ac7-a766-c4ec7e85948c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static-in-pro/our-static/css/home.css" afterPath="$PROJECT_DIR$/static-in-pro/our-static/css/home.css" />
     </list>
     <ignored path="website1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
+            <state relative-caret-position="241">
               <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
               <folding />
             </state>
@@ -105,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static-in-pro/our-static/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="218" column="1" selection-start-line="218" selection-start-column="1" selection-end-line="218" selection-end-column="1" />
+            <state relative-caret-position="366">
+              <caret line="182" column="24" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -162,8 +162,8 @@
         <option value="$PROJECT_DIR$/templates/javascript.html" />
         <option value="$PROJECT_DIR$/static-in-pro/our-static/img/chateau/chateau.svg" />
         <option value="$PROJECT_DIR$/static-in-pro/our-static/css/chateau.css" />
-        <option value="$PROJECT_DIR$/static-in-pro/our-static/css/home.css" />
         <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/static-in-pro/our-static/css/home.css" />
       </list>
     </option>
   </component>
@@ -825,18 +825,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static-in-pro/our-static/css/home.css">
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="218" column="1" selection-start-line="218" selection-start-column="1" selection-end-line="218" selection-end-column="1" />
+        <state relative-caret-position="241">
+          <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/static-in-pro/our-static/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
+        <state relative-caret-position="366">
+          <caret line="182" column="24" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
           <folding />
         </state>
       </provider>

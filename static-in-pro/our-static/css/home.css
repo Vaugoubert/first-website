@@ -179,8 +179,9 @@ font-family: 'oswald-L';
  margin: 0;
  padding: 0;
  height: 100vh;
- background:url(/static/img/home/04_vision.png) center no-repeat;
+ /* background:url(/static/img/home/04_vision.png) center no-repeat; */
  background-size: cover;
+ background-color: red;
 }
 
 #home4-des{
