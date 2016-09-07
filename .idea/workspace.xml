@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d33711a-2373-4ac7-a766-c4ec7e85948c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static-in-pro/our-static/img/detente/01_velo.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/css/home_page.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/css/home_page2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/Logo_blanc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/Logo_gris.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/_Fleche_scroll_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home/fanny.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home/fanny2.jpg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/04_guillemets.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/04_vision.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/06_carte_AVEC_texte.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/06_carte_SANS_texte.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/Logo_boulot_blanc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/Logo_chateau_blanc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/Logo_dodo_blanc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/chateau.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/experimentation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/foret.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/home_page2_2_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/home_page2_4_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/home_page2_5_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/home_page2_6_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/home_page2_img1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/potager.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/repos.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static-in-pro/our-static/img/home_page2/riviere.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/homeOLD.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/home_page2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/navbar.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static-in-pro/our-static/css/home.css" afterPath="$PROJECT_DIR$/static-in-pro/our-static/css/home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/detente.html" afterPath="$PROJECT_DIR$/templates/detente.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/head_css.html" afterPath="$PROJECT_DIR$/templates/head_css.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static-in-pro/our-static/css/histoire.css" afterPath="$PROJECT_DIR$/static-in-pro/our-static/css/histoire.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/histoire.html" afterPath="$PROJECT_DIR$/templates/histoire.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
     </list>
     <ignored path="website1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,11 +26,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.49506903">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="histoire.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="histoire.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/histoire.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="83" selection-end-column="23" />
+                <state relative-caret-position="1042">
+                  <caret line="139" column="33" selection-start-line="139" selection-start-column="33" selection-end-line="139" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -80,10 +46,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="detente.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="detente.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/detente.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="502">
+                <state relative-caret-position="577">
                   <caret line="115" column="83" selection-start-line="115" selection-start-column="83" selection-end-line="115" selection-end-column="83" />
                   <folding />
                 </state>
@@ -94,7 +60,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="detente.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="detente.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static-in-pro/our-static/css/detente.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="526">
@@ -104,11 +70,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="histoire.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="histoire.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static-in-pro/our-static/css/histoire.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="141" column="15" selection-start-line="141" selection-start-column="15" selection-end-line="141" selection-end-column="15" />
+                <state relative-caret-position="285">
+                  <caret line="103" column="15" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -157,16 +123,16 @@
         <option value="$PROJECT_DIR$/templates/javascript.html" />
         <option value="$PROJECT_DIR$/static-in-pro/our-static/img/chateau/chateau.svg" />
         <option value="$PROJECT_DIR$/static-in-pro/our-static/css/chateau.css" />
-        <option value="$PROJECT_DIR$/static-in-pro/our-static/css/histoire.css" />
         <option value="$PROJECT_DIR$/templates/chateau.html" />
         <option value="$PROJECT_DIR$/templates/boulot.html" />
         <option value="$PROJECT_DIR$/templates/repos.html" />
-        <option value="$PROJECT_DIR$/templates/histoire.html" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/static-in-pro/our-static/css/home.css" />
         <option value="$PROJECT_DIR$/templates/head_css.html" />
         <option value="$PROJECT_DIR$/static-in-pro/our-static/css/detente.css" />
         <option value="$PROJECT_DIR$/templates/detente.html" />
+        <option value="$PROJECT_DIR$/templates/histoire.html" />
+        <option value="$PROJECT_DIR$/static-in-pro/our-static/css/histoire.css" />
       </list>
     </option>
   </component>
@@ -872,14 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static-in-pro/our-static/css/histoire.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="141" column="15" selection-start-line="141" selection-start-column="15" selection-end-line="141" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -896,14 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/histoire.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="83" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static-in-pro/our-static/css/detente.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
@@ -914,8 +864,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/detente.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
+        <state relative-caret-position="577">
           <caret line="115" column="83" selection-start-line="115" selection-start-column="83" selection-end-line="115" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/histoire.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1042">
+          <caret line="139" column="33" selection-start-line="139" selection-start-column="33" selection-end-line="139" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-in-pro/our-static/css/histoire.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="103" column="15" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
           <folding />
         </state>
       </provider>

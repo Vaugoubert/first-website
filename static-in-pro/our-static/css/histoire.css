@@ -101,7 +101,7 @@ visibility:hidden;
 #histoire2-des1{
  text-align:center;
  color:white;
- margin-top: 5vh;
+ margin-top: 10vh;
  font-family:'oswald-L';
  width:150vh;
 }
@@ -109,7 +109,7 @@ visibility:hidden;
 #histoire2-des2{
  text-align:center;
  color:white;
- margin-top: 5vh;
+ margin-top: 15vh;
  font-family:'oswald-L';
  width:150vh;
 }
@@ -139,7 +139,7 @@ visibility:hidden;
 #histoire3-des{
  text-align:center;
  color:white;
- margin-top: 35vh;
+ margin-top: 15vh;
  font-family:'oswald-L';
  width:100vh;
 }
