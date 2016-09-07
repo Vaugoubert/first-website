@@ -110,7 +110,7 @@ font-family: 'oswald-L'
 }
 
 #home2-item1{
-margin-top: 15vh;
+margin-top: 12vh;
 color:white;
 text-align:center;
 font-family: 'oswald-L';
@@ -124,7 +124,7 @@ font-family: 'oswald-L';
 
 
 #home2-item2{
-margin-top: 17vh;
+margin-top: 12vh;
 color:white;
 text-align:center;
 font-family: 'oswald-L';
@@ -148,7 +148,7 @@ font-family: 'oswald-L';
 #home3-des{
 text-align:center;
 color:white;
-margin-top: 15vh;
+margin-top: 10vh;
 font-family:'oswald-L';
 }
 
@@ -159,7 +159,7 @@ font-size:20px;
 
 
 #home3-item{
-margin-top: 10vh;
+margin-top: 8vh;
 color:white;
 text-align:center;
 font-family: 'oswald-L';
@@ -198,19 +198,20 @@ font-family: 'oswald-L';
 #home4-des{
 text-align:center;
 color:white;
-margin-top: 15vh;
+margin-top: 10vh;
 font-family:'oswald-R';
 }
 
 #home4-guillemets img{
  width:auto;
  height:25vh;
+ margin-top:-5vh;
 }
 
 #home4-des2{
 text-align:center;
 color:white;
-margin-top: 10vh;
+margin-top: 5vh;
 font-family:'oswald-L';
 }
 

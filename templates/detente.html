@@ -3,6 +3,118 @@
 
 {% block content %}
 
-<h1>test</h1>
+<div id="img-detente" class="container">
+
+    <div id="nav-2-detente" class="row">
+
+            <div class="col-xs-5"></div>
+
+            <div id="logo-2-detente" class="col-xs-2">
+                <a href="{% url 'home' %}"><img src="{% static 'img/Logo_blanc.png' %}"></a>
+            </div>
+
+            <div class="col-xs-5">
+                <nav id="nav-2-menu" class="nav navbar-nav">
+                     <ul class="nav navbar-nav">
+                            <li><a href="{% url 'chateau' %}">CHATEAU</a></li>
+                            <li><a href="{% url 'boulot' %}">BOULOT</a></li>
+                            <li><a href="{% url 'repos' %}">REPOS</a></li>
+                            <li><a href="{% url 'histoire' %}">Histoire</a></li>
+                            <li><a href="{% url 'detente' %}">Detente</a></li>
+                     </ul>
+                </nav>
+            </div>
+    </div>
+
+    <center><div id="detente-des">
+        <h1>ACTIVITES</h1>
+        <h3>Dépensez-vous autour de Vaugoubert pour mieux reconnecter !
+            Le relief est y doux et vallonné, et les paysages sont
+            principalement composés de forêts éparses et de pelouses calcaires,
+            le tout agrémenté de fiers vestiges historiques. </h3>
+    </div></center>
+
+    <div id="detente-item" class="row">
+        <div class="col-xs-4">
+            <img src="{% static 'img/detente/01_velo.png' %}">
+            <h2>VELO</h2>
+        </div>
+        <div class="col-xs-4">
+            <img src="{% static 'img/detente/01_course.png' %}">
+            <h2>COURSE</h2>
+        </div>
+        <div class="col-xs-4">
+            <img src="{% static 'img/detente/01_balades.png' %}">
+            <h2>BALADES</h2>
+        </div>
+    </div>
+
+    <div id="detente-des2">
+        <center><h3>Tous les moyens sont bons pour profiter
+            de la campagne périgourdine!</h3></center>
+    </div>
+</div>
+
+
+<div id="img-detente2" class="container">
+
+    <div id="detente2-item" class="row">
+        <div class="col-xs-4">
+            <img src="{% static 'img/detente/02_denivele_A.png' %}">
+        </div>
+        <div class="col-xs-4">
+            <h3>Nous vous mettons à disposition des vélos ainsi que
+                le tracé de plusieurs boucles partant du château ;
+                mais libre à vous de dessiner votre propre chemin...
+                <br><br>Quelques inspirations ci-dessous :</h3>
+        </div>
+        <div class="col-xs-4">
+            <img src="{% static 'img/detente/02_denivele_B.png' %}">
+        </div>
+    </div>
+
+    <div id="detente2-item2">
+        <center><img src="{% static 'img/detente/02_parcours_AVEC_texte.png' %}"></center>
+    </div>
+
+</div>
+
+
+<div id="img-detente3" class="container">
+
+    <div id="detente3-item" class="row">
+        <div class="col-xs-4">
+            <img src="{% static 'img/detente/03_denivele_A.png' %}">
+        </div>
+        <div class="col-xs-4">
+            <h3>Vous êtes plutôt trail ou randonnée? Nous avons également pensé à vous!
+            Voici deux circuits courts mais de nombreux autres parcours vous attendent...</h3>
+        </div>
+        <div class="col-xs-4">
+            <img src="{% static 'img/detente/03_denivele_B.png' %}">
+        </div>
+    </div>
+
+    <div id="detente3-item2">
+        <center><img src="{% static 'img/detente/03_parcours.png' %}"></center>
+    </div>
+
+</div>
+
+<div id="img-detente4" class="container">
+    <center><div id="detente4-des">
+        <h2>Mais il y a plus…<br><br>
+        Vous aurez également le plaisir de découvrir la gastronomie
+            et l’artisanat périgourdins.<br><br>
+        Il y a, bien sûr, le foie gras, la truffe et les noix,
+            mais également le cuir, le verre et les couteaux !<br><br>
+
+        Et bien sûr nombre de balades digestives dans la forêt attenante au château !<br><br>
+
+        Voilà un avant goût des charmes du Périgord Vert,
+            nous vous laissons en découvrir davantage sur les sites dédiés,
+            mais vous aurez de toute façon toutes les informations que vous désirez une fois sur place.</h2>
+    </div></center>
+</div>
 
 {% endblock %}

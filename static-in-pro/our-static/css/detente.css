@@ -1,0 +1,154 @@
+@font-face {
+    font-family:'oswald-R';
+    src: url('Oswald-Regular.ttf');
+}
+@font-face {
+    font-family:'oswald-B';
+    src: url('Oswald-Bold.ttf');
+}
+@font-face {
+    font-family:'oswald-L';
+    src: url('Oswald-Light.ttf');
+}
+
+#nav-2-detente{
+ height:50px;
+ background-color: #17476A;
+ width:100vw;
+ z-index:1;
+ position: fixed;
+ border-bottom:#FF5119 1px solid;
+}
+
+#nav-2-menu{
+ float: right;
+ clear: right;
+ font-size:80%;
+}
+
+#nav-2-menu ul li a{
+ color:white;
+}
+
+#logo-2-detente{
+ text-align:center;
+}
+
+#logo-2-detente img{
+ width:35%;
+ height:auto;
+}
+
+#img-detente{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background:url(/static/img/detente/01_activites.png) center no-repeat;
+ background-size: cover;
+}
+
+#img-detente div.row{
+margin-left: 0;
+margin-right:0;
+}
+
+#img-detente div.row div.col-xs-5, #img-detente div.row div.col-xs-2 {
+padding-left:0;
+padding-right:0;
+}
+
+#detente-des{
+text-align:center;
+margin-top: 12vh;
+color: white;
+font-family: 'oswald-L';
+width:100vh;
+}
+
+#detente-item{
+ text-align:center;
+ color:white;
+ font-family: 'oswald-L';
+ margin-top: 8vh;
+}
+
+#detente-item img{
+ height:20vh;
+}
+
+#detente-des2{
+ color:white;
+ text-align:center;
+ font-family: 'oswald-L';
+ margin-top: 8vh;
+}
+
+#img-detente2{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 140vh;
+ background:url(/static/img/detente/02_parcours_velo.png) center no-repeat;
+ background-size: cover;
+ background-color:#17476A;
+}
+
+#detente2-item{
+ color:white;
+ text-align: center;
+ margin-top:5vh;
+ font-family:'oswald-L';
+}
+
+#detente2-item img{
+ height:25vh;
+}
+
+#detente2-item2 img{
+ height:100vh;
+}
+
+
+#img-detente3{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 136vh;
+ background:url(/static/img/detente/03_parcours_course.png) center no-repeat;
+ background-size: cover;
+ background-color:#17476A;
+}
+
+#detente3-item{
+ color:white;
+ text-align: center;
+ margin-top:5vh;
+ font-family:'oswald-L';
+}
+
+#detente3-item img{
+ height:25vh;
+}
+
+#detente3-item2 img{
+ height:100vh;
+}
+
+#img-detente4{
+ width:100vw;
+ margin: 0;
+ padding: 0;
+ height: 136vh;
+ background:url(/static/img/detente/04_conclu.png) center no-repeat;
+ background-size: cover;
+ background-color:#17476A;
+}
+
+#detente4-des{
+ text-align:center;
+ color:white;
+ margin-top: 20vh;
+ font-family:'oswald-L';
+ width:125vh;
+}
